@@ -1,0 +1,9 @@
+﻿{
+  "name": "windows-devkit-healthcheck",
+  "private": true,
+  "description": "Windows local healthcheck for AI agent workspaces",
+  "scripts": {
+    "postinstall": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/devkit_healthcheck.ps1",
+    "healthcheck": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/devkit_healthcheck.ps1"
+  }
+}
