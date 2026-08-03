@@ -1,0 +1,10 @@
+{
+  "name": "win-devkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows environment bootstrap for AI coding agents",
+  "scripts": {
+    "setup": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/setup.ps1",
+    "postinstall": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/setup.ps1"
+  }
+}
